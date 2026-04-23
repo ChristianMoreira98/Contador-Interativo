@@ -1,6 +1,6 @@
 📊 Projeto simples feito com HTML, CSS e JavaScript, desenvolvido para fins estudantis, com foco em praticar conceitos do front-end.
 
-🚀 Funcionalidades
+🚀 Funcionalidades: <br>
 ➕ Aumentar número
 ➖ Diminuir número
 🔄 Resetar contador
