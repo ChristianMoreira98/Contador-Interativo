@@ -22,8 +22,7 @@ O tema é alterado com classList.toggle() <br> <br>
 -index.html <br>
 -style.css <br>
 -script.js <br> <br>
-💡 Resumo <br>
-
+💡 Resumo: <br>
 Projeto básico voltado para aprendizado, ideal para praticar 
 lógica em JavaScript, 
 manipulação do DOM, 
