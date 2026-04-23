@@ -17,7 +17,7 @@ O tema é alterado com classList.toggle() <br> <br>
 -Modo escuro <br> <br>
 📱 Responsivo: <br>
 -Funciona em celular e desktop <br>
-- Usa media queries para ajustar tamanhos <br> <br>
+-Usa media queries para ajustar tamanhos <br> <br>
 📁 Estrutura: <br>
 -index.html <br>
 -style.css <br>
