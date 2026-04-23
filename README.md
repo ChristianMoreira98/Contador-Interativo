@@ -28,6 +28,6 @@ lógica em JavaScript,
 manipulação do DOM, 
 CSS e responsividade <br> <br>
 
-Link para a visualização do projeto: 
+Link para a visualização do projeto: https://christianmoreira98.github.io/Contador-Interativo/
 <br> <br>
 🧠 Um dia de cada vez.
