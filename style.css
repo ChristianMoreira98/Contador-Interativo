@@ -1,0 +1,238 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral da página */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container do contador */
+.contador-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    text-align: center;
+    width: 530px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.08),
+        0 5px 10px rgba(0, 0, 0, 0.05);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* leve efeito ao passar o mouse */
+.contador-container:hover {
+    transform: translateY(-5px);
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.12),
+        0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Título */
+.contador-container h1 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #111827;
+}
+
+/* Número do contador */
+#valor-contador {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #2563eb;
+
+    transition: transform 0.15s ease;
+}
+
+/* animação quando mudar */
+#valor-contador.animar {
+    transform: scale(1.15);
+}
+
+/* Área dos botões */
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilo dos botões */
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background: #111827;
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.modo_black {
+    margin-top: 1rem;
+}
+
+/* Hover mais bonito */
+button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+/* Clique (efeito pressão) */
+button:active {
+    transform: scale(0.95);
+}
+
+
+
+.reset:hover {
+    background: #ef4444;
+}
+
+
+
+/* Celulares pequenos */
+/* CELULAR */
+@media (max-width: 480px) {
+
+
+    .contador-container h1 {
+        margin-bottom: 25px;
+        font-size: 5rem;
+        color: #111827;
+    }
+
+    .contador-container {
+        width: 80%;
+        height: 70%;
+
+    }
+
+    .contador-container,
+    h1 {
+        font-size: 10rem;
+    }
+
+    #valor-contador {
+        font-size: 10rem;
+    }
+
+
+
+    button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+}
+
+
+/* Celulares normais */
+@media (max-width: 820px) {
+
+
+    .contador-container h1 {
+        margin-bottom: 25px;
+        font-size: 5rem;
+        color: #111827;
+    }
+
+    .contador-container {
+        width: 70%;
+        height: 45%;
+        padding: 25px;
+    }
+
+    .contador-container,
+    h1 {
+        font-size: 10rem;
+    }
+
+    #valor-contador {
+        font-size: 10rem;
+    }
+
+
+
+    button {
+        font-size: 2.8rem;
+        padding: 20px;
+    }
+}
+
+
+
+
+
+/* ===== MODO ESCURO ===== */
+
+body.dark {
+    background: linear-gradient(135deg, #0f172a, #020617);
+}
+
+/* Container */
+body.dark .contador-container {
+    background-color: #111827;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.5),
+        0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+body.dark .contador-container h1 {
+    color: #e5e7eb;
+}
+
+/* Número do contador */
+body.dark #valor-contador {
+    color: #60a5fa;
+}
+
+/* Botões padrão */
+body.dark button {
+    background: #1f2933;
+    color: #f9fafb;
+}
+
+/* Hover */
+body.dark button:hover {
+    background: #2563eb;
+}
+
+/* Clique */
+body.dark button:active {
+    transform: scale(0.95);
+}
+
+/* Reset */
+body.dark .reset {
+    background: #374151;
+}
+
+body.dark .reset:hover {
+    background: #ef4444;
+}
+
+/* Botão de tema */
+body.dark .modo_black {
+    color: #e5e7eb;
+}
