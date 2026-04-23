@@ -29,7 +29,6 @@ lógica em JavaScript,
 manipulação do DOM, 
 CSS e responsividade <br> <br>
 
-
 Link para a visualização do projeto: 
 <br> <br>
 🧠 Um dia de cada vez.
