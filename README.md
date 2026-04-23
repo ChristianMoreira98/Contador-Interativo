@@ -24,12 +24,12 @@ O tema é alterado com classList.toggle() <br> <br>
 -script.js <br> <br>
 💡 Resumo <br>
 
-Projeto básico voltado para aprendizado, ideal para praticar:
-
+Projeto básico voltado para aprendizado, ideal para praticar 
 lógica em JavaScript, 
 manipulação do DOM, 
-CSS e responsividade
+CSS e responsividade <br> <br>
+
 
 Link para a visualização do projeto: 
-
+<br> <br>
 🧠 Um dia de cada vez.
