@@ -4,24 +4,24 @@
 ➕ Aumentar número <br>
 ➖ Diminuir número <br>
 🔄 Resetar contador <br>
-🌙 Alternar modo escuro <br>
+🌙 Alternar modo escuro <br> <br>
 🧠 Como funciona: <br>
 Uma variável (contador) guarda o valor
 Botões chamam funções (aumentar, diminuir, resetar)
 O valor é atualizado na tela usando o DOM (innerText)
-O tema é alterado com classList.toggle() <br>
+O tema é alterado com classList.toggle() <br> <br>
 🎨 Estilo: <br>
 -Layout centralizado com flexbox <br>
 -Cores modernas (azul, branco e cinza escuro) <br>
 -Efeitos de hover e clique <br>
--Modo escuro <br>
+-Modo escuro <br> <br>
 📱 Responsivo: <br>
 -Funciona em celular e desktop <br>
-- Usa media queries para ajustar tamanhos <br>
+- Usa media queries para ajustar tamanhos <br> <br>
 📁 Estrutura: <br>
 -index.html <br>
 -style.css <br>
--script.js <br>
+-script.js <br> <br>
 💡 Resumo <br>
 
 Projeto básico voltado para aprendizado, ideal para praticar:
