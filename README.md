@@ -4,7 +4,7 @@
 ➕ Aumentar número <br>
 ➖ Diminuir número <br>
 🔄 Resetar contador <br>
-🌙 Alternar modo escuro <br> <br>
+🌙 Alternar para o modo escuro <br> <br>
 🧠 Como funciona: <br>
 Uma variável (contador) guarda o valor
 Botões chamam funções (aumentar, diminuir, resetar)
