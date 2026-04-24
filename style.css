@@ -151,13 +151,13 @@ button:active {
 
     .contador-container h1 {
         margin-bottom: 25px;
-        font-size: 5rem;
+        font-size: 7rem;
         color: #111827;
     }
 
     .contador-container {
-        width: 70%;
-        height: 45%;
+        width: 90%;
+        height: 55%;
         padding: 25px;
     }
 
@@ -173,7 +173,7 @@ button:active {
 
 
     button {
-        font-size: 2.8rem;
+        font-size: 3rem;
         padding: 20px;
     }
 }
